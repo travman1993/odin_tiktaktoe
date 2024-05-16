@@ -21,6 +21,16 @@
         width: 100vw;
         height: 400px;
         background: linear-gradient(rgb(141, 141, 141) 0%, rgb(86, 161, 204) 60%, rgb(2, 101, 147) 100%);
+        border: 4px solid black;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cell {
+        width: 139.2px;
+        height: 129px;
+        border: 2px solid black;
+        font-size: 100px;
+        text-align: center;
     }
     #controler {
         width: 95%;
@@ -42,6 +52,8 @@
         margin: 2%;
         width: 95%;
         height: 30%;
+        text-align: center;
+        font-size: 35px;
     }
 }
 
