@@ -65,10 +65,12 @@ function handleMove(e) {
   
     return null;
   }
+
+let startingPlayer = player1
 function restartGame() {
     const cells = Array.from(document.querySelectorAll('.cell'));
     cells.forEach(cell => cell.textContent = '');
-    currentPlayer = player1;
+    currentPlayer = startingPlayer;
     gameDone = false;
     document.querySelector('#result').textContent = 'Play Again!';
 }
